@@ -1,0 +1,9 @@
+name: Feature request
+description: Describe a concrete problem and proposed workflow
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and current workaround
+    validations:
+      required: true

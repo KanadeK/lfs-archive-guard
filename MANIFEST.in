@@ -1,0 +1,5 @@
+include *.md requirements-dev.txt
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include docs *.md
+global-exclude *.py[cod]

@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a reproducible behavior mismatch
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+      description: Include the command, exit code, Python version and operating system.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproducer
+      description: Use synthetic inputs. Do not attach secrets or private data.
+    validations:
+      required: true
